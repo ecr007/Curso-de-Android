@@ -1,0 +1,11 @@
+
+- LinearLoyaout: Es un grupo de views que me permite organizarlos
+ya sea de forma vertical u horizontal.
+
+||| Hori
+  _ 
+  _ Vertical
+  _
+
+- RelativeLayout: Es para diseños mas compljos, como su nombre lo indica es cuando un view depende de otro view para
+trazar su posicion

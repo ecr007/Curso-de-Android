@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EverGram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="logo">Logo App</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="password">Password</string>
+    <string name="login">LogIn</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="tienes_una_cuenta">¿Tienes una cuenta?,</string>
+    <string name="crea_una_aqu">Crea una aquí</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="repetir_contrase_a">Repetir contraseña</string>
+    <string name="Rpass">Repertir Contraseña</string>
+    <string name="listo">Listo</string>
+    <string name="registrate">Registrate</string>
+</resources>

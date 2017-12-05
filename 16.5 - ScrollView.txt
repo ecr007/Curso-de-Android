@@ -1,0 +1,11 @@
+
+
+Este es un contenedor que se le coloca a los elementos para habilitar scroll en dicho contendo
+
+Etiqueta: ScrollView
+
+	 -layout_width (match_parent)
+	 -layout_height (match_parent)
+	 -layout_weight (0.4) a este le asignamos el lo que deja de espacio
+
+	 - fillViewPort = true. Esto me permite esterilizar el scrollview

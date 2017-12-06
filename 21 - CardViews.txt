@@ -1,0 +1,6 @@
+
+CardView: Es simplemente un contenedor de widgets, se le pueden agregar sombas y bordes redondeados, etc.
+
+RecyclerView: Viene como sustituto de las listas de contenidos y se usan mucho con los CardView
+
+FloatingActionButton: Es el boton flotante que tenemos en la parte inferior derecha (Es un estandard)

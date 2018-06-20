@@ -103,6 +103,7 @@
                             android:layout_marginTop="16dp"
                             android:text="@string/login"
                             android:theme="@style/EcrBtnAzul"
+                            android:onClick="goHome"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />

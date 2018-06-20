@@ -17,4 +17,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent obj = new Intent(this,RegistroActivity.class);
         startActivity(obj);
     }
+
+    public void goHome(View vista){
+        Intent obj = new Intent(this,ContentActivity.class);
+        startActivity(obj);
+    }
 }

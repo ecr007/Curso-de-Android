@@ -21,8 +21,9 @@ xmlns:tools="http://schemas.android.com/tools"
 
 ¿Como hago un include?
 
+```
  <include layout="@layout/SLUG DEL LAYOUT O NOMBRE" />
-
+```
 
 ****** ¿Como interactuo con mi toolbar que acabo de insertar????
 

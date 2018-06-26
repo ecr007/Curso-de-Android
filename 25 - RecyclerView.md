@@ -51,7 +51,6 @@ y el Activity que representa el contenedor.
 
 # Ejemplo de implementacion del Adaptador
 
-	```
 	public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdapterRecyclerView.PictureViewHolder> {
 
 	    private ArrayList<Picture> pictures;
@@ -124,7 +123,6 @@ y el Activity que representa el contenedor.
 	        }
 	    }
 	}
-	```
 
 
 

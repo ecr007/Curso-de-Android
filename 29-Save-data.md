@@ -1,21 +1,32 @@
 # Como guardar informacion
 
 ```
-	SharedPreferences userInfo = getSharedPreferences("KEY NAME",MODE_PRIVATE);
+SharedPreferences userInfo = getSharedPreferences("KEY NAME",MODE_PRIVATE);
 
-	SharedPreferences.Editor userInfoEdit = userInfo.edit();
+SharedPreferences.Editor userInfoEdit = userInfo.edit();
 
-	userInfoEdit.putString("name",INFORMACION EN STRING);
+userInfoEdit.putString("name",INFORMACION EN STRING);
 
-	userInfoEdit.apply();
+userInfoEdit.apply();
 ```
 
 # Como recuperar la informacion
 
 ```
-	private SharedPreferences objUser;
+private SharedPreferences objUser;
 
-	this.objUser = getSharedPreferences("KEY NAME",MODE_PRIVATE);
+this.objUser = getSharedPreferences("KEY NAME",MODE_PRIVATE);
 
-	objUser.getString("fecha","")
+objUser.getString("fecha","")
+```
+
+# Como eliminar una session
+
+```
+SharedPreferences userInfo = getSharedPreferences("KEY NAME",MODE_PRIVATE);
+
+SharedPreferences.Editor userInfoEdit = userInfo.edit();
+
+userInfoEdit.clear();
+userInfoEdit.apply();
 ```
